@@ -1,0 +1,20 @@
+---
+const label = Astro.props.label || "Chip";
+const color = Astro.props.color || "gray";
+const backgroundColor = Astro.props.backgroundColor || "lightgray";
+---
+<span>
+    {label}
+</span>
+
+<style define:vars={{ color, backgroundColor }}>
+    span {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 9999px;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: var(--color);
+        background-color: var(--backgroundColor);
+    }
+</style>

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --font-family: "Outfit", sans-serif;
+  --font-size: 16px;
+  --background: #f8f9fa;
+  --foreground: #2c3e50;
+  --card: #ffffff;
+  --card-foreground: #2c3e50;
+  --popover: #ffffff;
+  --popover-foreground: #2c3e50;
+  --primary: #2c3e50;
+  --primary-foreground: #a8d5ba;
+  --secondary: #a8d5ba;
+  --secondary-foreground: #2c3e50;
+  --muted: #e8eef1;
+  --muted-foreground: #6b7280;
+  --accent: #7ba5c7;
+  --accent-foreground: #ffffff;
+  --destructive: #e74c3c;
+  --destructive-foreground: #ffffff;
+  --border: #2c3e50;
+  --input: transparent;
+  --input-background: #ffffff;
+  --switch-background: #bdc3c7;
+  --font-weight-medium: 600;
+  --font-weight-normal: 400;
+  --ring: #a8d5ba;
+  --chart-1: #a8d5ba;
+  --chart-2: #7ba5c7;
+  --chart-3: #2c3e50;
+  --chart-4: #8fbc8f;
+  --chart-5: #6b9ac4;
+  --radius: 12px;
+  --sidebar: #f8f9fa;
+  --sidebar-foreground: #2c3e50;
+  --sidebar-primary: #2c3e50;
+  --sidebar-primary-foreground: #a8d5ba;
+  --sidebar-accent: #a8d5ba;
+  --sidebar-accent-foreground: #2c3e50;
+  --sidebar-border: #2c3e50;
+  --sidebar-ring: #a8d5ba;
+}
+
+html {
+  background-color: var(--background);
+  scroll-behavior: smooth;
+  cursor: default;
+}
